@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  margin-top: -100px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0px 20px 10px  rgba(0, 0, 0, 1.2);
+}
+.box-shadow{
+  box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.2);
+}
+
+.card-shadow{
+  box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.6);
+}
+
+.font-coffe{
+  font-family: Pacifico;
+  font-size: 4rem ;
+  color: #AF8F6F;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.relative{
+  position: relative;
+  margin-top: -10px;
+}
